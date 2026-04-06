@@ -32,11 +32,11 @@ public class Aluno {
     }
 
     public void setNome(String novoNome) {
-        this.nome = novoNome;
+        this.setNome(novoNome)
     }
 
     public boolean equals(Aluno alien) {
-        return this.getMatricula() == alien.getMatricula();
+        return this.getMatricula().equals(alien.getMatricula());
     }
 }
 
