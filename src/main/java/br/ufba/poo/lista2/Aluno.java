@@ -32,12 +32,12 @@ public class Aluno {
     }
 
     public void setNome(String novoNome) {
-        this.nome = novoNome
+        this.nome = novoNome;
     }
 
     @Overrride
     public Boolean equals(Object alien) {
-        return this.matricula == alien.matricula
+        return this.matricula == alien.matricula;
     }
 }
 
