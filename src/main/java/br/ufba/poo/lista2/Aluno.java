@@ -35,8 +35,9 @@ public class Aluno {
         this.setNome(novoNome);
     }
 
-    public boolean equals(Aluno alien) {
-        return this.getMatricula().equals(alien.getMatricula());
+    public boolean equals(Object obj) {
+        Aluno aluno = (Aluno)obj;
+        return this.getMatricula().equals(aluno.getMatricula());
     }
 }
 
