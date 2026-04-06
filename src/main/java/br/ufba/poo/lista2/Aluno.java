@@ -35,7 +35,7 @@ public class Aluno {
         this.nome = novoNome;
     }
 
-    @Overrride
+    @Override
     public Boolean equals(Object alien) {
         return this.matricula == alien.matricula;
     }
