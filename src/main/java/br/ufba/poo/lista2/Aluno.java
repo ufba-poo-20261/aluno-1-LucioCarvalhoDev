@@ -36,7 +36,7 @@ public class Aluno {
     }
 
     public boolean equals(Object alien) {
-        return this.matricula == alien.matricula;
+        return this.getMatricula() == alien.getMatricula();
     }
 }
 
