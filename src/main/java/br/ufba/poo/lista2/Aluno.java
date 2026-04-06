@@ -32,7 +32,7 @@ public class Aluno {
     }
 
     public void setNome(String novoNome) {
-        this.setNome(novoNome)
+        this.setNome(novoNome);
     }
 
     public boolean equals(Aluno alien) {
